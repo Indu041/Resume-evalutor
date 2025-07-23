@@ -16,10 +16,10 @@ Match Score: Displays a match percentage between the resume and each job role.
 Feedback & Recommendations: Provides suggestions to improve resume relevance for the target roles.
 
 ⚙️ Tech Stack:
-Frontend: Streamlit or Flask (for user interface)
+Frontend: Streamlit 
 
 Backend: Python
 
-NLP Libraries: spaCy, scikit-learn, or sentence-transformers (for embeddings)
+NLP Libraries: spaCy, scikit-learn
 
 Similarity: Cosine similarity or semantic embeddings
