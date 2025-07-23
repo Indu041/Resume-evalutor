@@ -9,8 +9,6 @@ Skill Extraction using NLP: Uses spaCy and custom keyword dictionaries to identi
 
 Role Matching: Compares extracted skills with a database of job roles using cosine similarity or embeddings to find the best fit.
 
-Job Role Generator (Optional): Recommends roles not only from existing data but can also generate personalized role titles using Generative AI (GPT).
-
 Match Score: Displays a match percentage between the resume and each job role.
 
 Feedback & Recommendations: Provides suggestions to improve resume relevance for the target roles.
