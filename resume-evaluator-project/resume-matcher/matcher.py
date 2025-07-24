@@ -7,4 +7,4 @@ def compute_similarity(resume_text, job_description):
     tfidf = TfidfVectorizer(stop_words='english')
     vectors = tfidf.fit_transform(corpus)
     similarity = cosine_similarity(vectors[0:1], vectors[1:2])
-    return 40+round(similarity[0][0] * 100, 2)
+    return round(similarity[0][0] * 100, 2)
