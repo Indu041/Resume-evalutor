@@ -19,8 +19,9 @@ if uploaded_file and job_description:
     st.success(f"Matching Score: {score}%")
 
     if score > 75:
-        st.markdown("✅ **Strong Match**")
+        st.markdown("✅ **Excellent Match** — Your resume strongly aligns with the job description. You're likely well-qualified for this role. Consider applying with confidence! ")
     elif score > 50:
-        st.markdown("🟡 **Moderate Match**")
+        st.markdown("🟡**Moderate Match** — Your resume matches the job description to some extent, but there’s room for improvement. Consider adding more relevant skills or experiences.")
     else:
-        st.markdown("❌ **Weak Match**")
+        st.markdown("Try including more relevant skills and keywords from the job description in your resume.")
+")
