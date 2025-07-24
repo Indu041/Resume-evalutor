@@ -24,4 +24,4 @@ if uploaded_file and job_description:
         st.markdown("🟡**Moderate Match** — Your resume matches the job description to some extent, but there’s room for improvement. Consider adding more relevant skills or experiences.")
     else:
         st.markdown("Try including more relevant skills and keywords from the job description in your resume.")
-")
+
